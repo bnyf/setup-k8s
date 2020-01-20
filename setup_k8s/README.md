@@ -2,7 +2,7 @@
 ## For master node
 
 ```
-source install_k8s.sh #install docker, kubeadm ctc.
+source install_k8s.sh #install docker, kubeadm, etc.
 source master_init_k8s_sh #init k8s.
 source master_install_flannel.sh #pull and start the flannle image -- a Pod network add-on.
 ```
