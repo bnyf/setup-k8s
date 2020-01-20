@@ -1,4 +1,4 @@
-# Install and Enable K8S
+# Install and Enable K8S on centos
 ## For master node
 
 ```
