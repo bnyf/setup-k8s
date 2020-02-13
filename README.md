@@ -1,6 +1,6 @@
 # k8s 配置文档
 
-在 centos 虚拟机上搭建k8s集群。
+## 在 centos 虚拟机上搭建k8s集群
 
 1. 首先根据setup_k8s文件夹下的README，安装并启动k8s环境
 
