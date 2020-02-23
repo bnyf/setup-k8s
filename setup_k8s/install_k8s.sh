@@ -47,8 +47,9 @@ EOF
 wget -O /etc/yum.repos.d/docker-ce.repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 yum -y install docker-ce
 
-# 启用docker
+# 设置docker为开机自启
 systemctl enable docker
+# 启用docker
 systemctl start docker
 cat > /etc/docker/daemon.json << EOF
 {
