@@ -15,7 +15,8 @@ vi /etc/hosts
 10.250.16.134 k8s2
 ```
 
-3. 关闭防火墙,如果不关闭需要按照官方文档的要求开启相应端口
+3. 关闭防火墙,如果不关闭需要按照官方文档的要求开启相应端口  
+link: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#check-required-ports
 ```
 systemctl stop firewalld
 systemctl disable firewalld
